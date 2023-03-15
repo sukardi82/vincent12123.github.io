@@ -1,0 +1,21 @@
+[
+  
+  {
+    "title": "Django",
+    "url": "/posts/test/",
+    "categories": "Web Development",
+    "tags": "Python, Web Framework",
+    "date": "2023-03-15 00:00:00 +0700",
+    
+
+
+
+
+
+    
+    "snippet": "Django adalah sebuah framework web Python yang open source dan dibangun untuk membantu pengembang web dalam membangun situs web yang skalabel dan mudah dikembangkan. Framework ini memiliki banyak f...",
+    "content": "Django adalah sebuah framework web Python yang open source dan dibangun untuk membantu pengembang web dalam membangun situs web yang skalabel dan mudah dikembangkan. Framework ini memiliki banyak fitur seperti ORM, template system, authentication, dan masih banyak lagi. Berikut adalah beberapa fitur yang ditawarkan oleh Django:      ORM: Django menyediakan ORM yang memudahkan pengembang dalam berinteraksi dengan database. Dengan ORM ini, pengembang dapat menulis kode Python untuk melakukan operasi CRUD pada database, tanpa harus menulis query SQL yang kompleks.        Template System: Django menyediakan template system yang memudahkan pengembang dalam membuat tampilan halaman web. Dengan template system ini, pengembang dapat memisahkan antara kode Python dan HTML, sehingga memudahkan dalam pengembangan dan perawatan situs web.        Authentication: Django memiliki fitur authentication yang memudahkan pengembang dalam mengelola user dan session pada situs web. Dengan fitur ini, pengembang dapat membuat fitur login dan logout pada situs web dengan mudah.  Dengan banyaknya fitur yang ditawarkan oleh Django, framework ini menjadi salah satu pilihan utama bagi pengembang web dalam membangun situs web."
+  }
+  
+]
+

@@ -1,0 +1,61 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Sukardi Notes</title>
+  <subtitle>Never let a great idea slip away. Capturing every thought, no matter how small, in order to create something greater.</subtitle>
+  <updated>2023-03-15T23:40:50+07:00</updated>
+  <author>
+    <name>Sukardi</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Sukardi </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Django</title>
+    <link href="http://localhost:4000/posts/test/" rel="alternate" type="text/html" title="Django" />
+    <published>2023-03-15T00:00:00+07:00</published>
+  
+    <updated>2023-03-15T00:00:00+07:00</updated>
+  
+    <id>http://localhost:4000/posts/test/</id>
+    <content src="http://localhost:4000/posts/test/" />
+    <author>
+      <name>Sukardi</name>
+    </author>
+
+  
+    
+    <category term="Web Development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Django adalah sebuah framework web Python yang open source dan dibangun untuk membantu pengembang web dalam membangun situs web yang skalabel dan mudah dikembangkan. Framework ini memiliki banyak fitur seperti ORM, template system, authentication, dan masih banyak lagi. Berikut adalah beberapa fitur yang ditawarkan oleh Django:
+
+
+  
+    ORM: Django menyediakan ORM yang memudahkan pengembang dal...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
