@@ -71,6 +71,33 @@ SELECT produk, SUM(jumlah) AS total_jumlah FROM penjualan GROUP BY produk;
 Query di atas akan menampilkan jumlah produk yang terjual untuk setiap produk, dengan data diurutkan berdasarkan nama produk.
 
 5. JOIN - untuk menggabungkan dua tabel atau lebih
+berikut adalah contoh tabel supplier dengan beberapa data contoh:
+``` sql
+CREATE TABLE supplier (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nama VARCHAR(50),
+  produk VARCHAR(50),
+  alamat VARCHAR(100),
+  kota VARCHAR(50)
+);
+
+INSERT INTO supplier (nama, produk, alamat, kota) VALUES
+('Supplier A', 'Buku Tulis', 'Jl. Merdeka No. 10', 'Jakarta'),
+('Supplier B', 'Pensil', 'Jl. Sudirman No. 25', 'Bandung'),
+('Supplier C', 'Bolpoin', 'Jl. Imam Bonjol No. 15', 'Surabaya'),
+('Supplier D', 'Stabilo', 'Jl. Asia Afrika No. 20', 'Bandung'),
+('Supplier E', 'Penghapus', 'Jl. Gatot Subroto No. 30', 'Jakarta');
+```
+Tabel supplier terdiri dari 5 kolom yaitu:
+
+- id : kolom id sebagai primary key yang secara otomatis di-generate oleh MySQL setiap kali data baru dimasukkan ke dalam tabel.
+- nama : kolom nama dengan tipe data VARCHAR(50) untuk mencatat nama supplier.
+- produk : kolom produk dengan tipe data VARCHAR(50) untuk mencatat produk yang dijual oleh supplier.
+- alamat : kolom alamat dengan tipe data VARCHAR(100) untuk mencatat alamat supplier.
+- kota : kolom kota dengan tipe data VARCHAR(50) untuk mencatat kota tempat supplier berada.
+
+Contoh data yang dimasukkan ke dalam tabel ini mencatat beberapa supplier yang menyediakan produk tertentu. Query yang bisa dilakukan:
+
 ``` sql
 SELECT penjualan.tanggal, penjualan.produk, penjualan.jumlah, supplier.nama AS nama_supplier 
 FROM penjualan 
