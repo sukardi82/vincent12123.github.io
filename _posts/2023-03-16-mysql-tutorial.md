@@ -18,7 +18,7 @@ Query MySQL adalah alat yang sangat penting dalam pengelolaan database MySQL. De
 
 ## Tutorial Mysql
 berikut adalah contoh tabel penjualan dengan beberapa data contoh:
-``` mysql
+``` sql
 CREATE TABLE penjualan (
   id INT PRIMARY KEY AUTO_INCREMENT,
   tanggal DATE,
@@ -34,4 +34,25 @@ INSERT INTO penjualan (tanggal, produk, jumlah, harga, total) VALUES
 ('2022-01-03', 'Bolpoin', 15, 2500, 37500),
 ('2022-01-04', 'Stabilo', 5, 10000, 50000),
 ('2022-01-05', 'Penghapus', 8, 1500, 12000);
+```
+Tabel penjualan terdiri dari 6 kolom yaitu:
+
+- id : kolom id sebagai primary key yang secara otomatis di-generate oleh MySQL setiap kali data baru dimasukkan ke dalam tabel.
+- tanggal : kolom tanggal dengan tipe data DATE untuk mencatat tanggal penjualan dilakukan.
+- produk : kolom produk dengan tipe data VARCHAR(50) untuk mencatat nama produk yang terjual.
+- jumlah : kolom jumlah dengan tipe data INT untuk mencatat jumlah produk yang terjual.
+- harga : kolom harga dengan tipe data DECIMAL(10,2) untuk mencatat harga satuan produk.
+- total : kolom total dengan tipe data DECIMAL(10,2) untuk mencatat total harga penjualan.
+
+Contoh data yang dimasukkan ke dalam tabel ini mencatat beberapa penjualan produk pada tanggal-tanggal tertentu. Dalam contoh ini, kolom total dihitung otomatis berdasarkan nilai jumlah dan harga.
+Setelah tabel penjualan dibuat, ada beberapa query MySQL yang dapat Anda gunakan untuk mengambil data dari tabel ini, antara lain:
+1. SELECT - untuk mengambil data dari tabel
+``` sql
+SELECT * FROM penjualan;
+```
+Query di atas akan menampilkan semua data dari tabel penjualan.
+
+2. WHERE - untuk mengambil data dengan kondisi tertentu
+``` sql
+SELECT * FROM penjualan WHERE tanggal BETWEEN '2022-01-01' AND '2022-01-03';
 ```
