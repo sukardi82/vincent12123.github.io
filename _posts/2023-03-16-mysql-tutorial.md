@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Belajar Query Mysql 
+toc: true
 categories: [Tutorial Mysql Query]
 tags: [Mysql, Query]
 ---
@@ -87,6 +88,7 @@ INSERT INTO supplier (nama, produk, alamat, kota) VALUES
 ('Supplier C', 'Bolpoin', 'Jl. Imam Bonjol No. 15', 'Surabaya'),
 ('Supplier D', 'Stabilo', 'Jl. Asia Afrika No. 20', 'Bandung'),
 ('Supplier E', 'Penghapus', 'Jl. Gatot Subroto No. 30', 'Jakarta');
+
 ```
 Tabel supplier terdiri dari 5 kolom yaitu:
 
