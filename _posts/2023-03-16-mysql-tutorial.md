@@ -70,8 +70,8 @@ SELECT produk, SUM(jumlah) AS total_jumlah FROM penjualan GROUP BY produk;
 ```
 Query di atas akan menampilkan jumlah produk yang terjual untuk setiap produk, dengan data diurutkan berdasarkan nama produk.
 
-5. JOIN - untuk menggabungkan dua tabel atau lebih
-berikut adalah contoh tabel supplier dengan beberapa data contoh:
+5. JOIN - untuk menggabungkan dua tabel atau lebih berikut adalah contoh tabel supplier dengan beberapa data contoh:
+
 ``` sql
 CREATE TABLE supplier (
   id INT PRIMARY KEY AUTO_INCREMENT,
