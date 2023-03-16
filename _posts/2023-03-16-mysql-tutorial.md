@@ -8,7 +8,7 @@ tags: [Mysql, Query]
 Query MySQL adalah perintah atau instruksi yang digunakan untuk berinteraksi dengan database MySQL. Query dapat digunakan untuk mengambil, memasukkan, menghapus, atau memperbarui data dalam database MySQL. Query MySQL ditulis dalam bahasa SQL (Structured Query Language) yang merupakan bahasa standar untuk manajemen database relasional
 Dalam MySQL, query digunakan untuk memanipulasi data dalam tabel. Beberapa contoh query MySQL yang umum digunakan adalah SELECT, INSERT, UPDATE, DELETE, JOIN, dan lain sebagainya. Setiap query terdiri dari perintah kunci (command key) dan klausa (clause) yang digunakan untuk memodifikasi, memanipulasi, dan mengambil data dari tabel.
 contoh query mysql
-``` mysql
+``` sql
 SELECT * FROM customers WHERE city='Jakarta';
 ```
 Query di atas digunakan untuk mengambil data dari tabel customers dengan syarat bahwa nilai kolom city sama dengan 'Jakarta'
@@ -56,3 +56,26 @@ Query di atas akan menampilkan semua data dari tabel penjualan.
 ``` sql
 SELECT * FROM penjualan WHERE tanggal BETWEEN '2022-01-01' AND '2022-01-03';
 ```
+Query di atas akan menampilkan data penjualan yang dilakukan antara tanggal 1 Januari 2022 hingga 3 Januari 2022.
+
+3. ORDER BY - untuk mengurutkan data
+``` sql
+SELECT * FROM penjualan ORDER BY tanggal DESC;
+```
+Query di atas akan menampilkan semua data penjualan yang telah diurutkan secara descending berdasarkan kolom tanggal.
+
+4. GROUP BY - untuk mengelompokkan data berdasarkan kolom tertentu
+``` sql
+SELECT produk, SUM(jumlah) AS total_jumlah FROM penjualan GROUP BY produk;
+```
+Query di atas akan menampilkan jumlah produk yang terjual untuk setiap produk, dengan data diurutkan berdasarkan nama produk.
+
+5. JOIN - untuk menggabungkan dua tabel atau lebih
+``` sql
+SELECT penjualan.tanggal, penjualan.produk, penjualan.jumlah, supplier.nama AS nama_supplier 
+FROM penjualan 
+JOIN supplier ON penjualan.produk = supplier.produk;
+```
+Query di atas akan menggabungkan tabel penjualan dengan tabel supplier dan menampilkan tanggal, produk, jumlah produk yang terjual, dan nama supplier untuk setiap produk yang terjual.
+
+Itu hanya beberapa contoh dari query yang dapat Anda gunakan pada tabel penjualan. Selain itu, ada banyak query lain yang dapat Anda gunakan untuk mengambil data atau melakukan manipulasi data di dalam tabel.
