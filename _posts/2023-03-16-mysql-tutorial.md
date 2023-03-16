@@ -107,4 +107,4 @@ JOIN supplier ON penjualan.produk = supplier.produk;
 ```
 Query di atas akan menggabungkan tabel penjualan dengan tabel supplier dan menampilkan tanggal, produk, jumlah produk yang terjual, dan nama supplier untuk setiap produk yang terjual.
 
-Itu hanya beberapa contoh dari query yang dapat Anda gunakan pada tabel penjualan. Selain itu, ada banyak query lain yang dapat Anda gunakan untuk mengambil data atau melakukan manipulasi data di dalam tabel.
+
