@@ -10,40 +10,32 @@ tags: [Streamlit, Tutorial]
 kerangka tutorial streamlit untuk pemula:
 
 1.  Pendahuluan
-
-*   Apa itu Streamlit
-*   Manfaat menggunakan Streamlit
+* Apa itu Streamlit
+* Manfaat menggunakan Streamlit
 
 2.  Persiapan
-
 *   Instalasi Streamlit
 *   Struktur folder project
 
 3.  Memulai
-
 *   Import library Streamlit
 *   Menampilkan teks pada web app
 
 4.  Menampilkan data
-
 *   Membaca data dari file
 *   Menampilkan data dalam bentuk tabel
 
 5.  Visualisasi data
-
 *   Membuat grafik dengan Streamlit
 
 6.  Interaksi
-
 *   Membuat widget sederhana (checkbox, slider, dsb.)
 *   Mereaktifkan tampilan berdasarkan input widget
 
 7.  Deploy aplikasi
-
 *   Hosting aplikasi dengan Heroku
 
 8.  Kesimpulan
-
 *   Ringkasan pembelajaran
 *   Saran untuk meningkatkan aplikasi
 
