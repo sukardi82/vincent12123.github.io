@@ -2,7 +2,7 @@
 layout: post
 title: "Streamlit Phyton"
 toc: true
-date: 2022-03-21 10:00:00 +0700
+date: 2023-03-21 10:00:00 +0700
 categories: [tutorial]
 tags: [Streamlit, Tutorial] 
 ---
