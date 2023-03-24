@@ -47,25 +47,25 @@ Tabel penjualan terdiri dari 6 kolom yaitu:
 
 Contoh data yang dimasukkan ke dalam tabel ini mencatat beberapa penjualan produk pada tanggal-tanggal tertentu. Dalam contoh ini, kolom total dihitung otomatis berdasarkan nilai jumlah dan harga.
 Setelah tabel penjualan dibuat, ada beberapa query MySQL yang dapat Anda gunakan untuk mengambil data dari tabel ini, antara lain:
-1. SELECT - untuk mengambil data dari tabel
+1. `SELECT` - untuk mengambil data dari tabel
 ``` sql
 SELECT * FROM penjualan;
 ```
 Query di atas akan menampilkan semua data dari tabel penjualan.
 
-2. WHERE - untuk mengambil data dengan kondisi tertentu
+2. `WHERE` - untuk mengambil data dengan kondisi tertentu
 ``` sql
 SELECT * FROM penjualan WHERE tanggal BETWEEN '2022-01-01' AND '2022-01-03';
 ```
 Query di atas akan menampilkan data penjualan yang dilakukan antara tanggal 1 Januari 2022 hingga 3 Januari 2022.
 
-3. ORDER BY - untuk mengurutkan data
+3. `ORDER BY` - untuk mengurutkan data
 ``` sql
 SELECT * FROM penjualan ORDER BY tanggal DESC;
 ```
 Query di atas akan menampilkan semua data penjualan yang telah diurutkan secara descending berdasarkan kolom tanggal.
 
-4. GROUP BY - untuk mengelompokkan data berdasarkan kolom tertentu
+4. `GROUP BY` - untuk mengelompokkan data berdasarkan kolom tertentu
 ``` sql
 SELECT produk, SUM(jumlah) AS total_jumlah FROM penjualan GROUP BY produk;
 ```
