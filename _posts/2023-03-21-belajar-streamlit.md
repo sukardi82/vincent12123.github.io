@@ -123,7 +123,7 @@ Pastikan bahwa path file CSV sesuai dengan lokasi file pada struktur folder proj
 
 ### 4.2 Menampilkan data dalam bentuk tabel
 
-Setelah membaca data, kita dapat menampilkan data dalam bentuk tabel dengan menggunakan fungsi `st.table()` dari Streamlit. Berikut adalah contoh kode untuk menampilkan data dalam bentuk tabel:
+Setelah membaca data, kita dapat menampilkan data dalam bentuk tabel dengan menggunakan fungsi `st.table()` dari `Streamlit`. Berikut adalah contoh kode untuk menampilkan data dalam bentuk tabel:
 
 python
 
