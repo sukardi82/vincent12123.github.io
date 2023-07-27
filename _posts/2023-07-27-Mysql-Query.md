@@ -191,8 +191,6 @@ Pada contoh di atas, data diurutkan berdasarkan kolom nama secara ascending.
 
 Dengan ORDER BY, kita dapat mengurutkan data dengan kriteria lebih dari satu kolom, misal:
 
-vbnet
-
 ```vbnet
 SELECT nama, jenis_kelamin 
 FROM mhs 
