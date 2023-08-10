@@ -1,3 +1,11 @@
+---
+layout: post
+title: Materi Mysql 
+toc: true
+categories: [RPL XI]
+tags: [Mysql, Query]
+---
+
 # BAB 1 Statemen SELECT
 
 Statemen SELECT digunakan untuk mengambil data dari database. Statemen ini merupakan statemen utama SQL karena sebagian besar query yang kita lakukan adalah pengambilan data, disamping itu statemen ini memiliki variasi paling banyak dibanding statemen lain seperti INSERT dan UPDATE.
