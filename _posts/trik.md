@@ -919,7 +919,7 @@ Pada contoh diatas, karena kolom total merupakan kolom alias dan baru terbentuk 
 
 Kasus seperti ini jarang sekali terjadi, sehingga tidak perlu difikirkan terlalu menadalam cukup dijadikan pengetahuan saja.
 
-### 2.3. Identifikasikan Bentuk Tabel
+## 2.3. Identifikasikan Bentuk Tabel
 
 Pada bagian ini kita akan membahas lebih dalam bagaimana mengidentifikasi bentuk tabel hasil eksekusi klausa FROM
 
